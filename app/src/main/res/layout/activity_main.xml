@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="Add Player"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/editfirst"
+        android:layout_marginLeft="100dp"
+        android:hint="First Player"
+        android:ems="10"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/editsecond"
+        android:layout_marginLeft="100dp"
+        android:hint="Second Player"
+        android:ems="10"
+        android:singleLine="true"/>
+
+    <Button
+        android:background="#333"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ADD PLAYER"
+        android:id="@+id/Add"
+        android:layout_marginLeft="100dp"
+        android:textColor="#f2f2f2"/>
+
+
+</LinearLayout>

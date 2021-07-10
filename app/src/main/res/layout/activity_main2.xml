@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+    -<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+    <TextView android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="12dp" android:layout_weight="1" android:text="ZeroCross" android:textAlignment="center" android:textAllCaps="true" android:textColor="#333" android:textSize="50dp" android:textStyle="italic"/>
+
+
+    -<LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:background="#D2B48C" android:layout_weight="0.4">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="match_parent" android:text="player1" android:textColor="#330033" android:textSize="30dp" android:id="@+id/player1" android:layout_marginLeft="60dp" android:padding="4dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Vs." android:textColor="#330033" android:textSize="30dp" android:layout_marginLeft="10dp" android:padding="4dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="match_parent" android:text="player2" android:textColor="#330033" android:textSize="30dp" android:id="@+id/player2" android:padding="4dp"/>
+
+</LinearLayout>
+
+
+    -<GridLayout android:layout_width="wrap_content" android:layout_height="0dp" android:orientation="horizontal" android:layout_weight="3" android:id="@+id/grid" android:layout_gravity="center" android:columnCount="3" android:rowCount="3">
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:textAlignment="center" android:textColor="#333" android:textSize="70sp" android:id="@+id/button_00" android:layout_margin="4dp"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:textAlignment="center" android:textColor="#333" android:textSize="70sp" android:id="@+id/button_01" android:layout_margin="4dp"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:textAlignment="center" android:textColor="#333" android:textSize="70sp" android:id="@+id/button_02" android:layout_margin="4dp"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:textAlignment="center" android:textColor="#333" android:textSize="70sp" android:id="@+id/button_10" android:layout_margin="4dp"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:textAlignment="center" android:textColor="#333" android:textSize="70sp" android:id="@+id/button_11" android:layout_margin="4dp"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:textAlignment="center" android:textColor="#333" android:textSize="70sp" android:id="@+id/button_12" android:layout_margin="4dp"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:textAlignment="center" android:textColor="#333" android:textSize="70sp" android:id="@+id/button_20" android:layout_margin="4dp"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:textAlignment="center" android:textColor="#333" android:textSize="70sp" android:id="@+id/button_21" android:layout_margin="4dp"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:textAlignment="center" android:textColor="#333" android:textSize="70sp" android:id="@+id/button_22" android:layout_margin="4dp"/>
+
+</GridLayout>
+
+
+    -<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#D2B48C" android:orientation="horizontal" android:gravity="center">
+
+    <Button android:layout_width="150dp" android:layout_height="wrap_content" android:background="#333" android:text="START" android:textColor="#f2f2f2" android:textSize="20dp" android:textStyle="bold" android:id="@+id/btnreset" android:layout_gravity="center"/>
+
+</LinearLayout>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
